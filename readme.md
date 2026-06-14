@@ -153,3 +153,44 @@ Please cite the following paper as the reference if you use our code. [paper](ht
       primaryClass={cs.IR}
 }
 ```
+## Reproduction Notes
+
+This repository contains my reproduced implementation of the RETA-LLM paper.
+
+### Repository
+
+GitHub:
+https://github.com/mahrokh75/RETA-LLM-Implementation
+
+### Dataset and Index Files
+
+The generated dataset and index files are not included directly in this repository because of their size.
+
+Download:
+
+https://drive.google.com/file/d/1oPzvDbqxFemP6kBeb7LLIL0ccZgoxR3E/view?usp=drive_link
+
+After extracting `reta_data_index.zip`, the following directories should be available:
+
+* raw_data/
+* json_data/
+* index/
+
+### API Configuration
+
+Before running the demo, configure your API key in:
+
+`system/config.py`
+
+Example:
+
+```python
+openai_api_key = "YOUR_API_KEY_HERE"
+```
+
+### Running the Demo
+
+```bash
+cd system
+streamlit run web_demo.py --server.port 1241 --server.address 0.0.0.0
+```
