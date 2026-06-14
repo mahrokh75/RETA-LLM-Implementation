@@ -31,7 +31,7 @@ fact_checking_template = fact_checking_template_en
 
 #model_config
 model_config_path = "./llm_chatgpt.json" #config path for LLM
-claude_api_key = "YOUR_API_KEY_HERE" #api_key for claude if you use claude
+openai_api_key = "YOUR_API_KEY_HERE" #api_key for openai/openrouter if you use api
 
 
 #searcher_config
