@@ -7,3 +7,7 @@ adapter-transformers.zip
 index/
 raw_data/
 json_data/
+~/
+**/~/
+.cache/
+**/.cache/
