@@ -188,7 +188,48 @@ Example:
 openai_api_key = "YOUR_API_KEY_HERE"
 ```
 
-### Running the Demo
+## Dataset and Index Files
+
+The generated datasets and index files are not included directly in this repository because of their size.
+
+### Download
+
+Google Drive:
+
+https://drive.google.com/drive/folders/15Np-gS9h6Fmkf19NPpZ9pF7jwJZXgnt7?usp=sharing
+
+### Contents
+
+#### 1. reta_data_index.zip
+
+Dataset and indexes used for reproducing the original RETA-LLM paper implementation.
+
+After extraction, the following directories should be available:
+
+- raw_data/
+- json_data/
+- index/
+
+#### 2. wiki_dataset.zip
+
+A custom Wikipedia-based dataset created to evaluate the extensibility of RETA-LLM.
+
+Included topics:
+
+- Artificial Intelligence
+- Machine Learning
+- Neural Network
+- Transformer
+- Large Language Model
+
+Contents:
+
+- raw_data/
+- json_data/
+- index/
+- url.txt
+
+This dataset was indexed and tested using the same RETA-LLM pipeline as the original implementation.### Running the Demo
 
 ```bash
 cd system
