@@ -162,20 +162,6 @@ This repository contains my reproduced implementation of the RETA-LLM paper.
 GitHub:
 https://github.com/mahrokh75/RETA-LLM-Implementation
 
-### Dataset and Index Files
-
-The generated dataset and index files are not included directly in this repository because of their size.
-
-Download:
-
-https://drive.google.com/file/d/1oPzvDbqxFemP6kBeb7LLIL0ccZgoxR3E/view?usp=drive_link
-
-After extracting `reta_data_index.zip`, the following directories should be available:
-
-* raw_data/
-* json_data/
-* index/
-
 ### API Configuration
 
 Before running the demo, configure your API key in:
